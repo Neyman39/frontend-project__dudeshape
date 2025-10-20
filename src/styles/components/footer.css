@@ -1,0 +1,158 @@
+.footer {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #305F64;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+}
+
+.footer__inner {
+    display: flex;
+    width: calc(100% - 240px);
+    height: 378px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer__company {
+    width: 308px;
+}
+
+.footer__description {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.social {
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.footer__title--logo {
+    font-size: 24px;
+}
+.footer__title--contacts {
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+.footer-nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.footer-nav__item {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-sing {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-sing__line {
+    width: 100%;
+    height: 1px;
+    background-color: #407980;
+}
+
+.footer-sing__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 63px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer__subscribe {
+    width: 253px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe__field {
+  display: flex;
+  width: 253px;
+  height: 48px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px 0 22px;
+  overflow: hidden;
+  background: white;
+}
+
+.subscribe__field:focus-within {
+  border-color: #154444;
+  box-shadow: 0 0 0 2px rgba(21, 68, 68, 0.1);
+}
+
+/* Элемент input блока subscribe */
+.subscribe__input {
+  border: none;
+  outline: none;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #859395;
+  background: transparent;
+}
+
+.subscribe__input::placeholder {
+  color: #999;
+}
+
+/* Элемент button блока subscribe */
+.subscribe__button {
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+/* Элемент icon блока subscribe */
+/* .subscribe__icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+} */
+
+/* Элемент button-text блока subscribe */
+.subscribe__button-text {
+  font-weight: 500;
+}
