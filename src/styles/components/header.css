@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
+  font-family: DM Sans, sans-serif;
 }
 
 /* Remove list styles on ul, ol elements */
@@ -30,7 +30,7 @@ ol[role='list'] {
 }
 
 .nav__logo {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #244d4d;
