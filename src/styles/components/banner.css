@@ -1,55 +1,54 @@
 .banner {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner__inner {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .banner__content {
-    background-color: #154444;
-    display: flex;
-    flex-direction: column;
-    width: 789px;
-    height: auto;
-    padding: 100px 0 0 100px;
-    
+  background-color: #154444;
+  display: flex;
+  flex-direction: column;
+  width: 789px;
+  height: auto;
+  padding: 100px 0 0 100px;
 }
 
 .banner__logo {
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 56px;
-    color: #FFFFFF;
-    word-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  word-wrap: break-word;
 }
 
 .banner__description {
-    width: 488px;
-    margin: 10px 0 35px 0;
+  width: 488px;
+  margin: 10px 0 35px 0;
 
-    font-family: "DM Sans";
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #FFFFFF;
-    word-wrap: break-word;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  word-wrap: break-word;
 }
 
 .banner__button {
-    width: 172px;
-    height: 56px;
-    background-color: #FFFFFF;
-    border-style: none;
+  width: 172px;
+  height: 56px;
+  background-color: #ffffff;
+  border-style: none;
 
-    font-family: "DM Sans";
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #154444;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #154444;
 }

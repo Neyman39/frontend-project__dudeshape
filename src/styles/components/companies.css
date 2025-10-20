@@ -1,32 +1,32 @@
 .companies {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 414px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 414px;
 }
 
 .companies__inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1082px;
-    height: 134px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1082px;
+  height: 134px;
+  justify-content: space-between;
 }
 
 .companies__title {
-    font-family: "DM Sans";
-    font-weight: 700;
-    font-size: 32px;
-    color: #244D4D;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 32px;
+  color: #244d4d;
 }
 
 .companies__logo {
-    display: flex;
-    width: 1082px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 1082px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
