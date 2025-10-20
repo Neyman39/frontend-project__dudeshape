@@ -21,31 +21,29 @@
 }
 
 .banner__logo {
-  font-family: 'Montserrat';
+  font-family: Montserrat;
   font-weight: 700;
   font-size: 56px;
-  color: #ffffff;
-  word-wrap: break-word;
+  color: #fff;
+  overflow-wrap: break-word;
 }
 
 .banner__description {
   width: 488px;
-  margin: 10px 0 35px 0;
-
+  margin: 10px 0 35px;
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
-  color: #ffffff;
-  word-wrap: break-word;
+  color: #fff;
+  overflow-wrap: break-word;
 }
 
 .banner__button {
   width: 172px;
   height: 56px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-style: none;
-
   font-family: 'DM Sans';
   font-weight: 400;
   font-size: 20px;

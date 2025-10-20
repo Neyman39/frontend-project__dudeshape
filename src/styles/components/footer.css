@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #fff;
   font-family: 'DM Sans';
 }
 
@@ -43,7 +43,7 @@
 }
 
 .footer__title {
-  font-family: 'Montserrat';
+  font-family: Montserrat;
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 24px;
@@ -52,6 +52,7 @@
 .footer__title--logo {
   font-size: 24px;
 }
+
 .footer__title--contacts {
   margin-bottom: 20px;
   line-height: 26px;
@@ -117,7 +118,7 @@
 
 .subscribe__field:focus-within {
   border-color: #154444;
-  box-shadow: 0 0 0 2px rgba(21, 68, 68, 0.1);
+  box-shadow: 0 0 0 2px rgb(21 68 68 / 10%);
 }
 
 /* Элемент input блока subscribe */
@@ -145,6 +146,7 @@
 }
 
 /* Элемент icon блока subscribe */
+
 /* .subscribe__icon {
   width: 18px;
   height: 18px;
