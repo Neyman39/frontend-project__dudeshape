@@ -1,0 +1,31 @@
+.popfurniture {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.popfurniture__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 30px;
+}
+
+.popfurniture__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  color: var(--prodcard-grey);
+}
+
+.popfurniture__text {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  width: 820px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--prodcard-grey);
+}

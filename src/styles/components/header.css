@@ -1,3 +1,9 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+} */
+
 /* Modern Reset CSS */
 * {
   margin: 0;
@@ -33,7 +39,7 @@ ol[role='list'] {
   font-family: Montserrat, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #244d4d;
+  color: var(--text-green);
 }
 
 .nav__menu {

@@ -1,0 +1,36 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog__list {
+  display: flex;
+  width: 720px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.catalog__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.catalog__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 33px 30px;
+}
+
+.room-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 222px;
+  height: 90px;
+  border: 1.5px solid #D9DCE5;
+}

@@ -7,6 +7,16 @@
   max-width: 100%;
 }
 
+.container-wp {
+  width: 100%;
+  padding-top: 140px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+
 @media (--sm-viewport) {
   .container {
     max-width: 576px;
@@ -19,16 +29,30 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .container-wp {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 @media (--lg-viewport) {
   .container {
     max-width: 1024px;
   }
+
+  .container-wp {
+    max-width: 1024px;
+  }
 }
 
 @media (--xl-viewport) {
   .container {
-    max-width: 1312px;
+    max-width: 1232px;
+  }
+
+  .container-wp {
+    max-width: 1232px;
   }
 }
