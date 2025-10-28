@@ -1,6 +1,32 @@
 .subform {
+  padding-bottom: 140px;
+}
+
+.subform__inner {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+  padding: 68px 298px 55px;
   background-color: #F4F6F6;
+}
+
+.subform__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  color: var(--prodcard-grey);
+  overflow-wrap: break-word;
+}
+
+.subform__text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--prodcard-grey);
+  overflow-wrap: break-word;
 }

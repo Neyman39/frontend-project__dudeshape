@@ -1,7 +1,5 @@
 .product-card {
     display: flex;
-    width: 380px;
-    height: 383px;
     box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
     align-items: center;
     flex-direction: column;
@@ -14,6 +12,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 30px 24px 26px;
+  gap: 20px;
 }
 
 .product-card__line {

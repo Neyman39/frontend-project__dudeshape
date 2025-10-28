@@ -1,0 +1,52 @@
+
+.registration {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration__field {
+  display: flex;
+  width: 472px;
+  height: 67px;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 0 12px 0 22px;
+  overflow: hidden;
+  background: white;
+}
+
+.registration__field:focus-within {
+  border-color: var(--dark-green);
+  box-shadow: 0 0 0 2px rgb(21 68 68 / 10%);
+}
+
+/* Элемент input блока subscribe */
+.registration__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #859395;
+  background: transparent;
+}
+
+.registration__input::placeholder {
+  color: #999;
+}
+
+.registration__button {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 15px 31px;
+  cursor: pointer;
+  color: white;
+  background: var(--myrtle-green);
+}
+
+.registration__button-text {
+  font-weight: 500;
+}

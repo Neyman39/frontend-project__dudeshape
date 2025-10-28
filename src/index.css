@@ -12,5 +12,6 @@
 @import "./styles/components/product-card.css";
 @import "./styles/components/catalog.css";
 @import "./styles/components/review.css";
-@import "./styles/components/subform.css"
-
+@import "./styles/components/subform.css";
+@import "./styles/components/registration.css";
+@import "./styles/components/room-type.css";
