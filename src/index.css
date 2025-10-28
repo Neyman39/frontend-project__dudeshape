@@ -10,5 +10,7 @@
 @import "./styles/components/footer.css";
 @import "./styles/components/popfurniture.css";
 @import "./styles/components/product-card.css";
-@import "./styles/components/catalog.css"
+@import "./styles/components/catalog.css";
+@import "./styles/components/review.css";
+@import "./styles/components/subform.css"
 

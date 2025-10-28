@@ -1,0 +1,6 @@
+.subform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F4F6F6;
+}
