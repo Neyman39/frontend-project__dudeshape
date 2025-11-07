@@ -25,4 +25,4 @@ dist-ssr
 .env.production
 .env.staging
 
-readme.md
+README.md
