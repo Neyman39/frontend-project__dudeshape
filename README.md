@@ -1,6 +1,5 @@
 ## Новиченков А.В. КИ23-21Б
 
----
 #### Предмет: Фронтэнд разработка
 
 Задания:
@@ -8,4 +7,4 @@
 - [ ] Темная тема
 - [ ] Адаптивная верстка
 
-Макет: figma.com/design/DCBiY8KpkzWHAVDCHvpIef/DudeShape?node-id=301-1678&p=f&t=IzMI7eW9N8EhLNYS-0
+Макет: <https://www.figma.com/design/DCBiY8KpkzWHAVDCHvpIef/DudeShape?node-id=301-1678&t=IzMI7eW9N8EhLNYS-0>
