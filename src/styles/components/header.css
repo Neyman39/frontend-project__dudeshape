@@ -19,8 +19,8 @@ ol[role='list'] {
 }
 
 .header {
-  height: 100px;
-  width: 100%;
+  padding-top: 44px;
+  padding-bottom: 26px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,36 +30,41 @@ ol[role='list'] {
 .nav {
   display: flex;
   flex-direction: row;
-  width: 1200px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
 
 .nav__logo {
   font-family: Montserrat, sans-serif;
-  font-size: 24px;
+  font-size: clamp(18px, 3vw, 24px);
   font-weight: 700;
   color: var(--text-green);
 }
 
 .nav__menu {
   display: flex;
-  width: 472px;
-  gap: 50px;
+  gap: 10px 82px;
+  flex-flow: row wrap;
   justify-content: space-between;
   list-style: none;
 }
 
 .nav__item {
-  font-size: 16px;
+  font-size: clamp(14px, 2vw, 16px);
   font-weight: 400;
   color: #161616;
 }
 
 .nav__actions {
   display: flex;
-  width: 78px;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 30px;
+}
+
+@media (--sm-viewport) {
+  .header {
+    flex-flow: row wrap;
+  }
 }

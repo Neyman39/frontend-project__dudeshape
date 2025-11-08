@@ -2,11 +2,14 @@
 .registration {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 55px;
 }
 
 .registration__field {
   display: flex;
-  width: 472px;
+  width: min(100%, 472px);
   height: 67px;
   flex-direction: row;
   align-items: center;
@@ -49,4 +52,10 @@
 
 .registration__button-text {
   font-weight: 500;
+}
+
+@media (--sm-viewport) {
+  .registration__field {
+    
+  }
 }

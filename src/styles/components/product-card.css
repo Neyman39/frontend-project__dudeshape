@@ -24,7 +24,7 @@
 .product-card__text {
   font-family: DM Sans, sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: clamp(16px, 3vw, 20px);
   line-height: 27px;
   color: var(--prodcard-grey);
 }
@@ -32,7 +32,7 @@
 .product-card__price {
   font-family: DM Sans, sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: clamp(18px, 3vw, 24px);
   line-height: 31px;
   color: var(--dark-green);
 }
@@ -52,4 +52,27 @@
   display: flex;
   flex-direction: row;
   gap: 8px;
+}
+
+@media (--sm-viewport) {
+  .product-card__button {
+    width: 60px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    border-style: none;
+    background-color: var(--text-green);
+    color: white;
+  }
+
+  .product-card__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 16px 15px;
+    gap: 10px;
+  }
 }

@@ -7,16 +7,15 @@
 .catalog__title {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: clamp(24px, 5vw, 32px);
   line-height: 52px;
   color: var(--prodcard-grey);
 }
 
 .catalog__list {
   display: flex;
-  width: 720px;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 100px;
 }
 
 .catalog__item {
@@ -30,7 +29,7 @@
 .catalog__item-text {
   font-family: DM Sans, sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: clamp(18px, 3vw, 24px);
   line-height: 27px;
   color: #919090;
   padding-bottom: 6px;
@@ -66,3 +65,34 @@
   gap: 33px 30px;
 }
 
+@media (--sm-viewport) {
+  .catalog__inner {
+    flex-direction: column;
+  }
+
+  .catalog__grid {
+    margin-top: 24px;
+    gap: 28px;
+  }
+
+  .catalog__list {
+    gap: 52px;
+  }
+}
+
+@media (--md-viewport) {
+  .catalog__inner {
+    flex-direction: column;
+  }
+
+  .catalog__grid {
+    margin-top: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 28px;
+  }
+
+  .catalog__list {
+    gap: 52px;
+  }
+}

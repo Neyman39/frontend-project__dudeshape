@@ -1,5 +1,8 @@
 .subform {
-  padding-bottom: 140px;
+  background-color: #F4F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subform__inner {
@@ -7,17 +10,17 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 68px 298px 55px;
-  background-color: #F4F6F6;
+  width: min(100%, 605px)
 }
 
 .subform__title {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: clamp(24px, 5vw, 32px);
   line-height: 52px;
   color: var(--prodcard-grey);
   overflow-wrap: break-word;
+  padding-top: 68px;
 }
 
 .subform__text {

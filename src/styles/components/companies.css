@@ -18,3 +18,46 @@
   align-items: center;
   justify-content: center;
 }
+
+
+@media (--sm-viewport) {
+  .companies__logo svg {
+    width: calc(30px * var(--svg-ratio, 1));
+  }
+
+  .companies__logo {
+    gap: 50px;
+  }
+}
+
+@media (--md-viewport) {
+  .companies__logo svg {
+    width: calc(40px * var(--svg-ratio, 1));
+  }
+
+  .companies__logo {
+    gap: 70px;
+  }
+}
+
+@media (--lg-viewport) {
+  .companies__logo svg {
+    height: auto;
+    width: auto;
+  }
+  
+  .companies__logo {
+    gap: 100px;
+  }
+}
+
+@media (--xl-viewport) {
+  .companies__logo svg {
+    height: auto;
+    width: auto;
+  }
+
+  .companies__logo {
+    gap: 100px;
+  }
+}

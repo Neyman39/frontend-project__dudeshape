@@ -14,7 +14,7 @@
 .popfurniture__title {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: clamp(24px, 5vw, 32px);
   line-height: 52px;
   color: var(--prodcard-grey);
 }
@@ -22,10 +22,24 @@
 .popfurniture__text {
   margin-top: 20px;
   margin-bottom: 80px;
-  width: 820px;
+  width: min(100%, 820px);
   font-family: DM Sans, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(16px, 3vw, 20px);
   line-height: 27px;
   color: var(--prodcard-grey);
+}
+
+@media (--sm-viewport) {
+  .popfurniture__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+
+  .popfurniture__text {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
 }

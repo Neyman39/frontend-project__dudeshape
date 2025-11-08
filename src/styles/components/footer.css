@@ -11,15 +11,15 @@
 
 .footer__inner {
   display: flex;
-  width: calc(100% - 240px);
-  height: 378px;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: row nowrap;
   padding-top: 100px;
+  padding-bottom: 40px;
+  gap: 100px;
 }
 
 .footer__company {
-  width: 308px;
+  width: 28%;
+  margin-right: 50px;
 }
 
 .footer__description {
@@ -28,15 +28,14 @@
   font-size: 18px;
 }
 
-.social {
-  width: 125px;
+.footer__social {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 15px;
 }
 
-.footer-nav {
+.footer__navcol {
   display: flex;
   flex-direction: column;
 }
@@ -57,7 +56,7 @@
   line-height: 26px;
 }
 
-.footer-nav__list {
+.footer__nav-list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -65,7 +64,7 @@
   gap: 16px;
 }
 
-.footer-nav__item {
+.footer__nav-item {
   font-weight: 400;
   font-size: 18px;
 }
@@ -87,15 +86,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 63px;
   font-weight: 400;
   font-size: 18px;
+  line-height: 63px;
 }
 
 .footer__subscribe {
-  width: 253px;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .subscribe {
@@ -154,4 +153,17 @@
 /* Элемент button-text блока subscribe */
 .subscribe__button-text {
   font-weight: 500;
+}
+
+
+@media (--sm-viewport) {
+  .footer__inner {
+    flex-flow: row wrap;
+  }
+}
+
+@media (--md-viewport) {
+  .footer__inner {
+    flex-flow: row wrap;
+  }
 }

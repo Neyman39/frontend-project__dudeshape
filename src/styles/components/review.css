@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 140px;
 }
 
 .review__textbox {
@@ -11,8 +12,8 @@
 .review__title {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 52px;
+  font-size: clamp(24px, 5vw, 32px);
+  line-height: clamp(40px, 5vw, 52px);
   color: var(--prodcard-grey);
   overflow-wrap: break-word;
 }
@@ -22,7 +23,7 @@
   margin-bottom: 40px;
   font-family: DM Sans, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(16px, 3vw, 20px);
   line-height: 27px;
   color: var(--prodcard-grey);
   overflow-wrap: break-word;
@@ -41,5 +42,37 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+.review__rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (--sm-viewport) {
+  .review {
+    flex-direction: column;
+  }
+
+  .review__textbox {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media (--md-viewport) {
+  .review {
+    flex-direction: column;
+  }
+}
+
+/*  @media (--lg-viewport) {
+  
+}
+
+@media (--xl-viewport) {
+  
+} */
 
 
