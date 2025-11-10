@@ -15,9 +15,9 @@
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
     </style>
-    <!-- <style media="(prefers-color-scheme: dark)">
+    <style media="(prefers-color-scheme: dark)">
       @import url('./src/styles/colors/dark.css');
-    </style> -->
+    </style>
   </head>
   <body>
     <header class="header container">
@@ -27,7 +27,7 @@
           <li class="nav__item">Home</li>
           <li class="nav__item">About</li>
           <li class="nav__item">Features</li>
-          <li class="nav__item">Contanct</li>
+          <li class="nav__item">Contact</li>
         </ul>
         <div class="nav__actions">
           <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,6 +60,51 @@
             </defs>
           </svg>
         </div>
+
+        <div class="nav__mob-actions">
+          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_31569_33)">
+          <path
+            d="M10.5691 0.538086C4.74145 0.538086 0 5.27635 0 11.1001C0 16.9241 4.74145 21.6621 10.5691 21.6621C16.3971 21.6621 21.1382 16.9241 21.1382 11.1001C21.1382 5.27635 16.3971 0.538086 10.5691 0.538086ZM10.5691 19.7122C5.81723 19.7122 1.95122 15.8488 1.95122 11.1001C1.95122 6.35145 5.81723 2.48799 10.5691 2.48799C15.321 2.48799 19.187 6.35141 19.187 11.1001C19.187 15.8487 15.321 19.7122 10.5691 19.7122Z"
+            fill="#244D4D"
+          />
+          <path
+            d="M23.714 22.8577L18.1205 17.268C17.7393 16.8871 17.1221 16.8871 16.7409 17.268C16.3598 17.6485 16.3598 18.266 16.7409 18.6466L22.3344 24.2363C22.525 24.4267 22.7745 24.522 23.0242 24.522C23.2736 24.522 23.5234 24.4267 23.714 24.2363C24.0951 23.8558 24.0951 23.2383 23.714 22.8577Z"
+            fill="#244D4D"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_31569_33">
+            <rect width="24" height="24" fill="white" transform="translate(0 0.520264)" />
+          </clipPath>
+        </defs>
+          </svg>
+          <button class="nav__burger" aria-label="Открыть меню">
+            <svg class="nav__burger-icon" width="24" height="25" viewBox="0 0 24 25" fill="none">
+              <g clip-path="url(#clip0_31569_40)">
+                <path d="M24.0004 17.86H9.66016V20.5245H24.0004V17.86Z" fill="#244D4D"/>
+                <path d="M24 11.1978H0V13.8623H24V11.1978Z" fill="#244D4D"/>
+                <path d="M14.3865 4.53491H0V7.19944H14.3865V4.53491Z" fill="#244D4D"/>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <div class="nav__mobile-menu">
+          <div class="nav__mobile-overlay"></div>
+          <div class="nav__mobile-content">
+            <button class="nav__mobile-close" aria-label="Закрыть меню">
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </button>
+            <ul class="nav__mobile-list">
+              <li class="nav__mobile-item"><a href="#" class="nav__mobile-link">Home</a></li>
+              <li class="nav__mobile-item"><a href="#" class="nav__mobile-link">About</a></li>
+              <li class="nav__mobile-item"><a href="#" class="nav__mobile-link">Features</a></li>
+              <li class="nav__mobile-item"><a href="#" class="nav__mobile-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -67,7 +112,10 @@
       <!-- <div class="bob">
         <img src="src/styles/images/chair.jpg" alt="Modern Furniture" width="411" height="560" />
       </div> -->
-      <img src="src/styles/images/chair.jpg" alt="Modern Furniture" width="411" height="560" />
+      <div class="bob">
+        <img src="src/styles/images/chair.jpg" alt="Modern Furniture" />
+      </div>
+      <!-- <img src="src/styles/images/chair.jpg" alt="Modern Furniture" width="411" height="560" /> -->
       
       <div class="banner__content">
         <h1 class="banner__logo">We Help You Make Modern Furniture</h1>
@@ -579,12 +627,17 @@
     </div>
 
     <article class="review container-wp">
-      <img src="./src/styles/images/review.jpg" alt="" width="564" height="492">
+      <div class="review__composite">
+        <div class="review__circle"></div>
+        <div class="blocker"></div>
+        <img class="review__img" src="./src/styles/images/review_2.jpg" alt="" width="459" height="492">
+      </div>
+      <!-- <img src="./src/styles/images/review_2.jpg" alt="" width="564" height="492"> -->
       <div class="review__textbox">
         <h1 class="review__title">Our customers are verry importan to us</h1>
         <p class="review__text">All of our furniture uses the best materials and choices for our customers. All of our furniture uses the best materials and choices for our customers.</p>
         <div class="review__box">
-          <img src="./src/styles/images/men.jpg" alt="" class="review__img">
+          <img src="./src/styles/images/men.jpg" alt="" class="review__avatar">
           <div>
             <p>Mh Jibon</p>
             <div class="review__rating">
@@ -796,5 +849,41 @@
     </footer>
 
     <script type="module" src="/src/index.js"></script>
+    <script>
+      // Элементы
+const burgerButton = document.querySelector('.nav__burger');
+const mobileMenu = document.querySelector('.nav__mobile-menu');
+const closeButton = document.querySelector('.nav__mobile-close');
+const overlay = document.querySelector('.nav__mobile-overlay');
+const body = document.body;
+
+// Открытие меню
+burgerButton.addEventListener('click', () => {
+  mobileMenu.classList.add('nav__mobile-menu--active');
+  body.classList.add('body-no-scroll');
+});
+
+// Закрытие меню
+function closeMobileMenu() {
+  mobileMenu.classList.remove('nav__mobile-menu--active');
+  body.classList.remove('body-no-scroll');
+}
+
+closeButton.addEventListener('click', closeMobileMenu);
+overlay.addEventListener('click', closeMobileMenu);
+
+// Закрытие по ESC
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeMobileMenu();
+  }
+});
+
+// Закрытие при клике на ссылку
+const mobileLinks = document.querySelectorAll('.nav__mobile-link');
+mobileLinks.forEach(link => {
+  link.addEventListener('click', closeMobileMenu);
+});
+    </script>
   </body>
 </html>

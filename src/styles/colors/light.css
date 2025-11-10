@@ -2,5 +2,14 @@
   color-scheme: light;
 
   --color-primary: var(--color-white);
+
+  /* --text-primary: var(--text-flall); */
+  --text-primary: var(--text-grey);
   --color-secondary: var(--color-black);
+  --companies-back: var(--color-white);
+
+  /* dsf */
+  --third-color: var(--text-green);
+  --for-text: var(--text-flall);
+  --for-card: var(--color-white);
 }

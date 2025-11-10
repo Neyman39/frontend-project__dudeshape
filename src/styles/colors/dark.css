@@ -2,5 +2,12 @@
   color-scheme: dark;
 
   --color-primary: var(--color-black);
+  --text-primary: var(--text-fdall);
   --color-secondary: var(--color-white);
+  --companies-back: var(--com-back);
+
+  /* dsf */
+  --third-color: var(--text-light-green);
+  --for-text: var(--text-fdall);
+  --for-card: var(--prodcard-grey);
 }

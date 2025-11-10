@@ -3,6 +3,7 @@
     box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
     align-items: center;
     flex-direction: column;
+    color: var(--for-text);
 }
 
 .product-card__inner {
@@ -13,6 +14,7 @@
   justify-content: space-between;
   padding: 30px 24px 26px;
   gap: 20px;
+  background-color: var(--for-card);
 }
 
 .product-card__line {
@@ -26,7 +28,6 @@
   font-weight: 500;
   font-size: clamp(16px, 3vw, 20px);
   line-height: 27px;
-  color: var(--prodcard-grey);
 }
 
 .product-card__price {
@@ -34,7 +35,7 @@
   font-weight: 500;
   font-size: clamp(18px, 3vw, 24px);
   line-height: 31px;
-  color: var(--dark-green);
+  color: var(--third-color);
 }
 
 .product-card__button {

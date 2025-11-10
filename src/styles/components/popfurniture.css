@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   padding-bottom: 20px;
+  color: var(--for-text);
 }
 
 .popfurniture__grid {
@@ -16,7 +17,6 @@
   font-weight: 700;
   font-size: clamp(24px, 5vw, 32px);
   line-height: 52px;
-  color: var(--prodcard-grey);
 }
 
 .popfurniture__text {
@@ -27,7 +27,6 @@
   font-weight: 400;
   font-size: clamp(16px, 3vw, 20px);
   line-height: 27px;
-  color: var(--prodcard-grey);
 }
 
 @media (--sm-viewport) {

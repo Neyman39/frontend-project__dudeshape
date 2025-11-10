@@ -1,9 +1,13 @@
 :root {
-  --color-white: #e3e3e3;
+  --color-white: #fff;
   --color-black: #1d1d1d;
   --myrtle-green: #305F64;
   --dark-green: #154444;
   --text-green: #244D4D;
+  --text-light-green: #4A9E9E;
   --text-grey: #383738;
   --prodcard-grey: #242424;
+  --text-flall: #242424;
+  --text-fdall: #dadada;
+  --com-back: #a3a3a3;
 }

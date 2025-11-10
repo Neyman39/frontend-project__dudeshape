@@ -5,10 +5,10 @@
 }
 
 .companies__title {
-  margin-bottom: 40px;
+  margin-bottom: 22px;
   font-weight: 700;
   font-size: 32px;
-  color: var(--text-green);
+  color: var(--third-color);
 }
 
 .companies__logo {
@@ -17,6 +17,9 @@
   gap: 100px;
   align-items: center;
   justify-content: center;
+  padding: 18px;
+  border-radius: 3px;
+  background-color: var(--companies-back);
 }
 
 
